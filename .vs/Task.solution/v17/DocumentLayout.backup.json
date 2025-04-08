@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.application\\response\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|solutionrelative:task.application\\response\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.api\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|solutionrelative:task.api\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.repository\\data\\repos\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|solutionrelative:task.repository\\data\\repos\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|solutionrelative:task.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|solutionrelative:task.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.repository\\data\\repos\\sqladdressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|solutionrelative:task.repository\\data\\repos\\sqladdressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|solutionrelative:task.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.repository\\data\\repos\\iaddressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|solutionrelative:task.repository\\data\\repos\\iaddressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.repository\\data\\repos\\sqluserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|solutionrelative:task.repository\\data\\repos\\sqluserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Task.application\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Task.application\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:52:42.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IaddressBookRepo.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "RelativeDocumentMoniker": "Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "RelativeToolTip": "Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:40:55.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLaddressBookRepo.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "RelativeDocumentMoniker": "Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "RelativeToolTip": "Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:26:43.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressBookController.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Controllers\\AddressBookController.cs",
+              "RelativeDocumentMoniker": "Task.API\\Controllers\\AddressBookController.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Controllers\\AddressBookController.cs",
+              "RelativeToolTip": "Task.API\\Controllers\\AddressBookController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:14:54.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Program.cs",
+              "RelativeDocumentMoniker": "Task.API\\Program.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Program.cs",
+              "RelativeToolTip": "Task.API\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:09:53.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Task.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Task.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:05:22.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "Task.repository\\Data\\Repos\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\IUserRepo.cs",
+              "RelativeToolTip": "Task.repository\\Data\\Repos\\IUserRepo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:27:02.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SQLUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\SQLUserRepo.cs",
+              "RelativeDocumentMoniker": "Task.repository\\Data\\Repos\\SQLUserRepo.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\SQLUserRepo.cs",
+              "RelativeToolTip": "Task.repository\\Data\\Repos\\SQLUserRepo.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwGcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:26:30.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Response\\AuthResult.cs",
+              "RelativeDocumentMoniker": "Task.application\\Response\\AuthResult.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Response\\AuthResult.cs",
+              "RelativeToolTip": "Task.application\\Response\\AuthResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:26:05.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\bin\Debug\net8.0\Task.core.deps.json
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\bin\Debug\net8.0\Task.core.dll
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\bin\Debug\net8.0\Task.core.pdb
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\Task.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\Task.core.AssemblyInfoInputs.cache
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\Task.core.AssemblyInfo.cs
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\Task.core.csproj.CoreCompileInputs.cache
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\Task.core.dll
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\refint\Task.core.dll
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\Task.core.pdb
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\ref\Task.core.dll
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.core\obj\Debug\net8.0\Task.core.csproj.AssemblyReference.cache
