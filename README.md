@@ -104,5 +104,5 @@ dotnet run
 
 ### 🔍 API Documentation
 After running the application, access Swagger UI at:
-  -http://localhost:<port>/swagger
+  -http://localhost:<port>/
   -(Replace `<port>` with your actual port number, typically 5000 or 5001)
