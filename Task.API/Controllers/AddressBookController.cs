@@ -43,10 +43,10 @@ namespace Task.API.Controllers
         }
         [HttpPost]
         [Authorize(Roles = "User")]
-        public async Task<IActionResult> createAddressBook([FromBody] AddressBookDto addressBookDto)
+        public async Task<IActionResult> createAddressBook([FromForm] AddressBookDto addressBookDto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (userId == null)
+            if (string.IsNullOrEmpty(userId))
             {
                 return Unauthorized("User not found");
             }
@@ -80,13 +80,35 @@ namespace Task.API.Controllers
         }
         [HttpGet]
         [Route("{id:int}")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> GetById(int id)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized("User not found");
+            }
+            var user = await _dbContext.Users.FindAsync(userId);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            if (id <= 0)
+            {
+                return BadRequest("Invalid address book ID");
+            }
+
+
             var addressBook = await iaddressBookRepo.GetAddressBookById(id);
             if (addressBook == null)
             {
                 return NotFound();
             }
+            if (addressBook.UserId != userId)
+            {
+                return Unauthorized("You are not authorized to access this address book");
+            }
+
             var addressBookDto = new AddressBookDto
             {
                 FirstName = addressBook.FirstName,
@@ -102,13 +124,40 @@ namespace Task.API.Controllers
 
         [HttpDelete]
         [Route("{id:int}")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> DeleteAddressBook(int id)
         {
-            var addressBook = await iaddressBookRepo.DeleteAddressBook(id);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized("User not found");
+            }
+
+            var user = await _dbContext.Users.FindAsync(userId);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            if (id <= 0)
+            {
+                return BadRequest("Invalid address book ID");
+            }
+
+            var addressBook = await _dbContext.addressBooks.FindAsync(id);
+
             if (addressBook == null)
             {
                 return NotFound();
             }
+            if (addressBook.UserId != userId)
+            {
+                return Unauthorized("You are not authorized to delete this address book");
+            }
+
+            await iaddressBookRepo.DeleteAddressBook(id);
+           _dbContext.addressBooks.Remove(addressBook);
+            await _dbContext.SaveChangesAsync();
+
             return Ok();
         }
 

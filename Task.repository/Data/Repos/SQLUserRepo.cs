@@ -64,10 +64,10 @@ namespace Task.repository.Data.Repos
             }
             else
             {
-                foreach (var error in result.Errors)
-                {
-                    // Handle errors as needed
-                }
+                //foreach (var error in result.Errors)
+                //{
+                    
+                //}
                 return false;
             }
 

@@ -22,7 +22,7 @@ namespace Task.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register([FromBody]RegisterDto userFromRequest)
+        public async Task<IActionResult> Register([FromForm]RegisterDto userFromRequest)
         {
             if (userFromRequest == null)
             {
@@ -41,7 +41,7 @@ namespace Task.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginDto loginDto)
+        public async Task<IActionResult> Login([FromForm]LoginDto loginDto)
         {
             if (loginDto == null)
             {

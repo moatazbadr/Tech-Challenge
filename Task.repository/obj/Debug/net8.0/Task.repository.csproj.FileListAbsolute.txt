@@ -17,3 +17,4 @@ C:\Users\moataz\Desktop\.Net study\Task.solution\Task.repository\obj\Debug\net8.
 C:\Users\moataz\Desktop\.Net study\Task.solution\Task.repository\obj\Debug\net8.0\ref\Task.repository.dll
 C:\Users\moataz\Desktop\.Net study\Task.solution\Task.repository\bin\Debug\net8.0\Task.application.dll
 C:\Users\moataz\Desktop\.Net study\Task.solution\Task.repository\bin\Debug\net8.0\Task.application.pdb
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.repository\obj\Debug\net8.0\Task.repository.sourcelink.json
