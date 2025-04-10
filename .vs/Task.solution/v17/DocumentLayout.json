@@ -15,8 +15,24 @@
       "RelativeMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|solutionrelative:task.repository\\data\\repos\\sqluserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.repository\\data\\repos\\iaddressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|solutionrelative:task.repository\\data\\repos\\iaddressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.application\\response\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|solutionrelative:task.application\\response\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.repository\\data\\repos\\sqladdressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|solutionrelative:task.repository\\data\\repos\\sqladdressbookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AFD12867-B9FA-4A0F-8FF8-7C824A0CAB5F}|Task.API\\Task.API.csproj|solutionrelative:task.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF0C92-7566-4B36-832A-9EB356B43A23}|Task.application\\Task.application.csproj|solutionrelative:task.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFECBEF3-EEE3-48DF-962E-AB4E4D1BA765}|Task.repository\\Task.repository.csproj|c:\\users\\moataz\\desktop\\.net study\\task.solution\\task.repository\\task.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,6 +70,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Task.application\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "Task.application\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:32:18.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLaddressBookRepo.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "RelativeDocumentMoniker": "Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "RelativeToolTip": "Task.repository\\Data\\Repos\\SQLaddressBookRepo.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAtwDMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:20:34.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Response\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "Task.application\\Response\\PaginatedResult.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.application\\Response\\PaginatedResult.cs",
+              "RelativeToolTip": "Task.application\\Response\\PaginatedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:19:55.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IaddressBookRepo.cs",
+              "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "RelativeDocumentMoniker": "Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "RelativeToolTip": "Task.repository\\Data\\Repos\\IaddressBookRepo.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:19:07.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "SQLUserRepo.cs",
               "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Data\\Repos\\SQLUserRepo.cs",
@@ -62,7 +130,8 @@
               "RelativeToolTip": "Task.repository\\Data\\Repos\\SQLUserRepo.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAEUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:25:06.724Z"
+              "WhenOpened": "2025-04-10T12:25:06.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,21 +141,23 @@
               "RelativeDocumentMoniker": "Task.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Task.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:23:02.098Z"
+              "WhenOpened": "2025-04-10T12:23:02.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\appsettings.json",
               "RelativeDocumentMoniker": "Task.API\\appsettings.json",
               "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\appsettings.json",
               "RelativeToolTip": "Task.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-10T12:13:49.766Z"
+              "WhenOpened": "2025-04-10T12:13:49.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,14 +167,14 @@
               "RelativeDocumentMoniker": "Task.API\\Controllers\\AddressBookController.cs",
               "ToolTip": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.API\\Controllers\\AddressBookController.cs",
               "RelativeToolTip": "Task.API\\Controllers\\AddressBookController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAowC0AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAawJwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T11:56:30.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Task.repository.csproj",
               "DocumentMoniker": "C:\\Users\\moataz\\Desktop\\.Net study\\Task.solution\\Task.repository\\Task.repository.csproj",
               "RelativeDocumentMoniker": "Task.repository\\Task.repository.csproj",

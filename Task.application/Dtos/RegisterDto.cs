@@ -15,7 +15,8 @@ namespace Task.application.Dtos
         public string UserName { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Email is required")]
-        [EmailAddress(ErrorMessage = "Invalid email format")]
+        [RegularExpression(@"^[a-zA-Z0-9._%+-]+@gmail\.com$",
+            ErrorMessage = "Email must be a Gmail address (@gmail.com)")]
         public string Email { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Password is required")]

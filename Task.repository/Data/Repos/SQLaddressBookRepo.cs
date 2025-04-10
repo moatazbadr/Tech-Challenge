@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task.application.Response;
 using Task.core.Models;
 
 namespace Task.repository.Data.Repos
@@ -46,5 +47,33 @@ namespace Task.repository.Data.Repos
 
 
         }
+
+
+        public async Task<PaginatedResult<AddressBook>> GetPaginatedContactsAsync(string? sortBy, int pageNumber, int pageSize)
+        {
+            var query = dbContext.addressBooks.AsQueryable();
+            if (!string.IsNullOrEmpty(sortBy))
+            {
+                query = sortBy.ToLower() switch
+                {
+                    "firstname" => query.OrderBy(c => c.FirstName),
+                    "lastname" => query.OrderBy(c => c.LastName),
+                    "email" => query.OrderBy(c => c.Email),
+                    _ => query
+                };
+            }
+            var totalCount = await query.CountAsync();
+            var items = await query.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+            return new PaginatedResult<AddressBook>
+            {
+                TotalCount = totalCount,
+                Items = items
+            };
+        }
     }
+
+
+
+
+
 }

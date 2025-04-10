@@ -83,6 +83,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Task.API.Controllers.AddressBookController",
+    "Method": "GetPaginatedContacts",
+    "RelativePath": "api/AddressBook/GetPaginatedContacts/paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Task.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/Login",

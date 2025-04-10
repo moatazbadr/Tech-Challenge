@@ -155,11 +155,19 @@ namespace Task.API.Controllers
             }
 
             await iaddressBookRepo.DeleteAddressBook(id);
-           _dbContext.addressBooks.Remove(addressBook);
+          
             await _dbContext.SaveChangesAsync();
 
             return Ok();
         }
-
+        [HttpGet("paginated")]
+        public async Task<IActionResult> GetPaginatedContacts(
+        [FromQuery] string? sortBy,
+        [FromQuery] int pageNumber = 1,
+        [FromQuery] int pageSize = 10)
+        {
+            var result = await iaddressBookRepo.GetPaginatedContactsAsync( sortBy, pageNumber, pageSize);
+            return Ok(result);
+        }
     }
 }

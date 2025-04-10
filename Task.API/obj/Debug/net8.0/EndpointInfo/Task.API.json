@@ -126,6 +126,45 @@
         }
       }
     },
+    "/api/AddressBook/GetPaginatedContacts/paginated": {
+      "get": {
+        "tags": [
+          "AddressBook"
+        ],
+        "parameters": [
+          {
+            "name": "sortBy",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/Register": {
       "post": {
         "tags": [
@@ -149,8 +188,8 @@
                     "type": "string"
                   },
                   "Email": {
-                    "type": "string",
-                    "format": "email"
+                    "pattern": "^[a-zA-Z0-9._%+-]+@gmail\\.com$",
+                    "type": "string"
                   },
                   "Password": {
                     "maxLength": 100,

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task.application.Response;
 using Task.core.Models;
 
 namespace Task.repository.Data.Repos
@@ -29,6 +30,10 @@ namespace Task.repository.Data.Repos
         Task<AddressBook?> DeleteAddressBook(int id);
         #endregion
 
+        #region Sorting
+        Task<PaginatedResult<AddressBook>> GetPaginatedContactsAsync( string? sortBy, int pageNumber, int pageSize);
+
+        #endregion
 
 
     }

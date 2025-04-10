@@ -9,3 +9,4 @@ C:\Users\moataz\Desktop\.Net study\Task.solution\Task.application\obj\Debug\net8
 C:\Users\moataz\Desktop\.Net study\Task.solution\Task.application\obj\Debug\net8.0\refint\Task.application.dll
 C:\Users\moataz\Desktop\.Net study\Task.solution\Task.application\obj\Debug\net8.0\Task.application.pdb
 C:\Users\moataz\Desktop\.Net study\Task.solution\Task.application\obj\Debug\net8.0\ref\Task.application.dll
+C:\Users\moataz\Desktop\.Net study\Task.solution\Task.application\obj\Debug\net8.0\Task.application.sourcelink.json
